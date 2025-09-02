@@ -19,24 +19,19 @@ header {
 }
 
 header img {
-    height: 80px;
+    height: 100px;
 }
 
 /* Barra de busca */
 .search-bar {
     display: flex;
     gap: 5px;
-    flex-grow: 1;
-    max-width: 600px; /* limita largura da barra de pesquisa */
-    margin: 0 20px;
 }
 
 .search-bar input {
-    padding: 6px 15px;
+    padding: 6px 70px;
     border-radius: 10px;
     border: none;
-    flex-grow: 1;
-    font-size: 16px;
 }
 
 .search-bar button {
@@ -47,7 +42,7 @@ header img {
     color: #028a0f;
     cursor: pointer;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: 0.3s;
 }
 
 .search-bar button:hover {
@@ -65,43 +60,24 @@ header img {
 .menu a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
-    font-size: 16px;
+    transition: 0.3s;
 }
 
 .menu a:hover {
     text-decoration: underline;
-    color: #ffd700;
 }
 
-/* Ícone do usuário */
 .user-icon {
     font-size: 22px;
     cursor: pointer;
 }
-
-.user-icon a {
+.user-icon a{
     color: white;
     text-decoration: none;
 }
 
 /* Responsividade básica */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    .search-bar {
-        max-width: 100%;
-        margin: 0;
-    }
-    .menu {
-        justify-content: center;
-        width: 100%;
-        gap: 10px;
-    }
-}
+
 
 /* Estilos para outras seções do site (mantidos, só organizei para você) */
 
