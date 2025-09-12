@@ -104,6 +104,10 @@ header img {
     overflow: hidden;
     text-align: center;
     width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card img {
