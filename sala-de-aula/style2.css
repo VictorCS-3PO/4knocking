@@ -104,12 +104,12 @@ header img {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .card {
-    background: #028a0f;
+    background: #048811;
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
@@ -129,6 +129,8 @@ header img {
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
+    color: white;
+    font-style: italic;
 }
 
 .card p {
@@ -138,7 +140,7 @@ header img {
 
 /* Localização e Contato */
 .localizacao, .contato {
-    text-align: center;
+   text-align: left ;
     margin-top: 20px;
 }
 
