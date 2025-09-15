@@ -104,20 +104,17 @@ header img {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .card {
-    background: #048811;
+    background: #028a0f;
     border-radius: 15px;
     overflow: hidden;
     text-align: center;
     width: 300px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
 }
 
 .card img {
@@ -129,18 +126,15 @@ header img {
     margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
-    font-style: italic;
 }
 
 .card p {
     font-size: 14px;
     margin-bottom: 10px;
 }
-
 /* Localização e Contato */
 .localizacao, .contato {
-   text-align: left ;
+    text-align: left;
     margin-top: 20px;
 }
 
